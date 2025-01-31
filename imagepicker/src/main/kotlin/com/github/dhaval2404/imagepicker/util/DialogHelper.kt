@@ -8,6 +8,8 @@ import com.github.dhaval2404.imagepicker.R
 import com.github.dhaval2404.imagepicker.constant.ImageProvider
 import com.github.dhaval2404.imagepicker.listener.DismissListener
 import com.github.dhaval2404.imagepicker.listener.ResultListener
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 
 /**
  * Show Dialog
