@@ -44,7 +44,13 @@ internal object DialogHelper {
             .setOnDismissListener {
                 dismissListener?.onDismiss()
             }
-            .show()
+            .create() // Don't forget to call create() to get the AlertDialog object
+
+// Set background color
+dialog.window?.setBackgroundDrawable(ColorDrawable(Color.parseColor("#101922"))) // Example color: #FF101922
+
+// Show the dialog
+dialog.show()
 
         // Handle Camera option click
         customView.findViewById<View>(R.id.lytCameraPick).setOnClickListener {
